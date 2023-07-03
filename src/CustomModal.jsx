@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./styles.css";
 
-export const CustomModal = ({
+export default function CustomModal({
   children,
   showCustomModal,
   setShowCustomModal,
@@ -12,7 +12,7 @@ export const CustomModal = ({
   height = "auto",
   backgroundColor = "#ffffff",
   color = "black",
-}) => {
+}) {
   if (!showCustomModal) {
     return null;
   }
@@ -44,7 +44,7 @@ export const CustomModal = ({
       )}
     </div>
   );
-};
+}
 
 CustomModal.propTypes = {
   children: PropTypes.node,
