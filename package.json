@@ -1,8 +1,8 @@
 {
   "name": "custom-modal-component",
-  "version": "0.1.14",
+  "version": "0.1.16",
   "author": "Pierre ANDRE",
-  "description": "Create a description for a custom modal component",
+  "description": "Create a React custom modal component",
   "keywords": [
     "react",
     "modal",
@@ -10,6 +10,14 @@
   ],
   "main": "dist/main.js",
   "module": "dist/main.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peallyz/custom_modal_OCp14"
+  },
   "scripts": {
     "build": "del /s /q dist && set NODE_ENV=production && babel src --out-dir dist --copy-files",
     "prepublish": "npm run build"
