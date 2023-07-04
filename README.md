@@ -64,7 +64,7 @@ The following props are available for the `CustomModal` component:
 ## Links
 
 - [npm package](https://www.npmjs.com/package/custom-modal-component)
-- [GitHub repository](https://github.com/Peallyz/Projet14_HRnet)
+- [GitHub repository](https://github.com/Peallyz/custom_modal_OCp14)
 
 ## License
 
