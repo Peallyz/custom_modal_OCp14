@@ -30,7 +30,7 @@ yarn add custom-modal-component
 ## Usage
 
 ```jsx
-import CustomModal from "custom-modal-component";
+import CustomModal from "custom-modal-component/dist/CustomModal";
 
 // ...
 
