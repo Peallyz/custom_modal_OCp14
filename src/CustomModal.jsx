@@ -13,6 +13,12 @@ export default function CustomModal({
   backgroundColor = "#ffffff",
   color = "black",
 }) {
+  // This component is a modal that can be used to display any content.
+  // To be used you need to pass the following props: showCustomModal, setShowCustomModal, children.
+  // Theses props are here to handle the modal state. The modal is opened by clicking on the button that has the setShowCustomModal function as onClick prop.
+  // The other props are optional and have default values. Optionnal props are: radius, padding, width, height, backgroundColor, color. The modal is closed by clicking on the x button.
+  // Optionnal props are essentially used to customize style.
+
   if (!showCustomModal) {
     return null;
   }

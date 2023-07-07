@@ -1,6 +1,6 @@
 {
   "name": "custom-modal-component",
-  "version": "0.1.17",
+  "version": "1.0.0",
   "author": "Pierre ANDRE",
   "description": "Create a React custom modal component",
   "keywords": [
@@ -23,11 +23,11 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@babel/cli": "^7.22.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
