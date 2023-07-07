@@ -9,6 +9,14 @@ A customizable modal component for React.
 
 This component is a modal that can be used to display any content. It provides a flexible and customizable solution for creating modals in your React applications.
 
+## Prerequisites
+
+Before using this component, make sure you have React and React DOM installed in your project.
+
+```bash
+npm install react react-dom
+```
+
 ## Installation
 
 You can install the package using npm, pnpm, or yarn:
