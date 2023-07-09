@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/custom-modal-component.svg)](https://www.npmjs.com/package/custom-modal-component)
 [![GitHub repo](https://img.shields.io/badge/GitHub-Repo-blue.svg)](https://github.com/Peallyz/Projet14_HRnet)
 [![VScode](https://img.shields.io/badge/IDE-VScode-blue.svg)](https://code.visualstudio.com/)
-[![Node.js version](https://img.shields.io/badge/Node.js-8.5.0-green.svg)](https://nodejs.org/)
+[![Node.js version](https://img.shields.io/badge/Node.js-16.14.2-green.svg)](https://nodejs.org/)
 
 A customizable modal component for React.
 
